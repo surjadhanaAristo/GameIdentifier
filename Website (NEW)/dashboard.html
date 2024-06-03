@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Game Guesser</title>
+    <title>Dashboard - AI Game Guesser</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,8 +11,8 @@
         <div class="navbar">
             <div class="logo">AI Game Guesser</div>
             <div class="nav-links">
-                <a href="#">Home</a>
-                <a href="login.html">Login</a>
+                <a href="index.html">Home</a>
+                <a href="#" onclick="logout()">Logout</a>
             </div>
         </div>
     </header>
@@ -20,9 +20,9 @@
         <section class="hero">
             <div class="overlay"></div>
             <div class="content">
-                <h1>AI Game Guesser</h1>
-                <p>Guess the Game</p>
-                <button class="register-btn" onclick="openModal()">Register</button>
+                <h1>Welcome to AI Game Guesser</h1>
+                <p>Are you ready to try the AI?</p>
+                <button class="try-ai-btn" onclick="tryAI()">Try AI</button>
             </div>
         </section>
     </main>
@@ -31,7 +31,7 @@
             <div class="footer-logo">AI Game Guesser</div>
             <div class="quick-links">
                 <h4>Quick Links</h4>
-                <a href="#">Home</a>
+                <a href="index.html">Home</a>
             </div>
             <div class="connect">
                 <h4>Connect</h4>
@@ -44,23 +44,6 @@
             <p>&copy; 2024 AI Game Guesser. All rights reserved.</p>
         </div>
     </footer>
-
-    <!-- Modal for Registration Form -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn" onclick="closeModal()">&times;</span>
-            <h2>Register</h2>
-            <form id="registration-form" onsubmit="registerUser(event)">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required><br>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-    </div>
 
     <script src="scripts.js"></script>
 </body>

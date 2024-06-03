@@ -74,7 +74,7 @@ body {
     margin-bottom: 20px;
 }
 
-.register-btn {
+.register-btn, .try-ai-btn {
     background: #ff6600;
     color: #fff;
     padding: 10px 20px;
@@ -83,7 +83,7 @@ body {
     cursor: pointer;
 }
 
-.register-btn:hover {
+.register-btn:hover, .try-ai-btn:hover {
     background: #e55a00;
 }
 
@@ -186,5 +186,53 @@ footer {
 }
 
 .modal-content button:hover {
+    background: #e55a00;
+}
+
+/* Login section styles */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+}
+
+.login-content {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-content h2 {
+    margin-bottom: 20px;
+}
+
+.login-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-content label {
+    margin-bottom: 5px;
+}
+
+.login-content input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-content button {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-content button:hover {
     background: #e55a00;
 }
