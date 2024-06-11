@@ -1,7 +1,5 @@
 persona series
 yakuza series
-apex legends
-fortnite
 among us
 doom
 gmod
