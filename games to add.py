@@ -22,3 +22,7 @@ stardew valley
 cuphead
 palworld
 overcooked
+war thunder
+diablo IV
+the finals
+
