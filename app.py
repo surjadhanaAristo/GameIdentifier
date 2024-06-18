@@ -13,8 +13,8 @@ UPLOAD_FOLDER = os.path.join(os.getcwd(), 'GameIdentifier', 'Website', 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Define the path to the model and classes
-MODEL_PATH = os.path.join(os.getcwd(), 'GameIdentifier', 'models', 'hsrandbloonsidentifier.keras')
-CLASSES_PATH = os.path.join(os.getcwd(), 'GameIdentifier', 'models', 'mlb_classes.npy')
+MODEL_PATH = os.path.join(os.getcwd(), 'models', 'best_model.keras')
+CLASSES_PATH = os.path.join(os.getcwd(), 'models', 'mlb_classes.npy')
 
 # Check if model and classes file exist
 if not os.path.exists(MODEL_PATH):
