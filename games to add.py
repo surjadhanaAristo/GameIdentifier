@@ -2,7 +2,6 @@ persona series
 gmod
 jackbox
 subnautica
-street fighter 6
 hell divers?
 elden ring
 red dead redemption
@@ -18,7 +17,8 @@ the sims 4
 the sims 3
 rust
 sea of thieves
-stardew valley
+sf5, sf4, sf3, sf2, sf1
+league of legends
 cuphead
 palworld
 overcooked
